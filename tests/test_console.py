@@ -6,7 +6,7 @@ Contains the class TestConsoleDocs
 import console
 import inspect
 import pep8
-import unittest
+import unittest/microsoft/pyright/blob/main/docs/configuration.md
 HBNBCommand = console.HBNBCommand
 
 
