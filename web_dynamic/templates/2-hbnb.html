@@ -5,12 +5,8 @@
 
     <META charset="utf-8">
     <META name="viewport" content="width=device-width">
-    <TITLE>HolbertonBnB</TITLE>
-
-    <!-- FAVICON -->
-
+    <TITLE>HBNB</TITLE>
     <LINK rel="shortcut icon" href="{{ url_for('static', filename='images/icon.png') + '?' + cache_id }}">
-
     <LINK rel="stylesheet" href="{{ url_for('static', filename='styles/4-common.css') + '?' + cache_id }}">
     <LINK rel="stylesheet" href="{{ url_for('static', filename='styles/3-header.css') + '?' + cache_id }}">
     <LINK rel="stylesheet" href="{{ url_for('static', filename='styles/3-footer.css') + '?' + cache_id }}">
@@ -24,8 +20,8 @@
 <BODY>
 
     <HEADER>
-        <DIV id="api_status" class="available">
-        </DIV>
+        <DIV class="logo"></DIV>
+        <DIV id="api_status"></DIV>
     </HEADER>
     <MAIN>
         <DIV class="container">
